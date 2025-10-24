@@ -1,13 +1,14 @@
 {
-  "name": "cgmlti",
+  "name": "landing-cgmlti",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "homepage": "https://juandiegosalinas1708.github.io/Proyecto-Tareas/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -28,3 +29,4 @@
     "vite": "^7.1.7"
   }
 }
+
