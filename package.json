@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://juandiegosalinas1708.github.io/Proyecto-Tareas/",
+  "homepage": "https://juandiegosalinas1708.github.io/landing_cgmlti/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
