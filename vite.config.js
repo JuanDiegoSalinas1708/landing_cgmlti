@@ -3,5 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/landing_cgmlti/' // <- nombre exacto de tu repo en GitHub
+  base: process.env.NETLIFY === 'true' ? '/' : '/landing_cgmlti/',
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
 })
